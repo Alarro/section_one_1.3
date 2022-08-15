@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mystyle.css" />
+    <script>
+      const readMore = () => {
+        const more = document.getElementById('more');
+        const text = document.getElementById('read-more-text');
+        const thirdSection = document.querySelector('.third-section__text');
+
+        if (!thirdSection.classList.contains('third-section__text--opened')) {
+          more.style.display = 'inline';
+          text.innerHTML = 'Скрыть';
+          thirdSection.classList.add('third-section__text--opened');
+        } else {
+          more.style.display = 'none';
+          text.innerHTML = 'Читать далее';
+          thirdSection.classList.remove('third-section__text--opened');
+        }
+      };
+    </script>
+
+    <script>
+        const tabActive = () => {
+            const target = event.target;
+
+            console.log(target)
+
+            if (!target.classList.contains('tab')) {
+                return }
+            if (target.classList.contains('tab--active')) {
+                return
+            } else {
+                document.querySelector('.tab--active')?.classList.remove('tab--active')
+                target.classList.add('tab--active')
+            }
+
+        }
+    
+    </script>
+
+    <title>CPS</title>
+  </head>
+  <body>
+    <header>
+      <div class="back">
+
+        <div class="header__left-icons">
+
+        <div class="back-1">
+          <div class="rectangles">
+            <div class="rectangle-1"></div>
+            <div class="rectangle-2"></div>
+            <div class="rectangle-3"></div>
+          </div>
+        </div>
+
+        <div class="divider-1"></div>
+
+        <div class="logo">
+          <img src="images/logo.png" />
+        </div>
+
+    </div>
+
+    <div class="header__right-icons">
+
+        <div class="back-2">
+          <div class="call">
+            <img src="images/call.png" />
+          </div>
+        </div>
+
+        <div class="back-3">
+          <div class="contact">
+            <img src="images/contact.png" />
+          </div>
+        </div>
+
+        <div class="back-4">
+          <div class="cabinet">
+            <img src="images/cabinet.png" />
+          </div>
+        </div>
+    
+
+        
+
+        <div class="divider-2"></div>
+
+        <div class="back-5">
+          <div class="paths">
+            <img src="images/Paths.png" />
+          </div>
+        </div>
+        <div class="back-6">
+          <div class="browse">
+            <img src="images/browse.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    </header>
+    <div class="first-section">
+        <div class="first-section__left-side">
+      <div class="first-section__highlight"></div>
+      <div class="first-section__services">
+        <h1>Услуги и сервисы</h1>
+      </div>
+    </div>
+
+    <div class="first-section__right-side">
+
+    <span class="first-section__make-request"> Оставить заявку</span>
+    <div class="back-7">
+        <div class="paths">
+          <img src="images/Paths.png" />
+        </div>
+      </div>
+      <span class="first-section__status"> Статус ремонта</span>
+      <div class="back-8">
+        <div class="browse">
+          <img src="images/browse.png" />
+        </div>
+      </div>
+    </div>
+</div>
+
+    <div class="second-section-wrap">
+      <div class="second-section" onclick="tabActive()">
+        <button class="tab devices tab--active">
+          Ремонтируемые девайсы
+        </button>
+        <button class="tab complimentary">
+          Дополнительные услуги
+        </button>
+        <button class="tab prices">
+          Цены на услуги
+        </button>
+        <button class="tab adresses">
+          Специальные цены
+        </button>
+        <button class="tab sale">
+          Адреса сервисных центров
+        </button>
+        <button class="tab feedback">
+          Отзывы
+        </button>
+      </div>
+    </div>
+
+    <div class="third-section">
+    
+
+    <article class="third-section__text">
+      <p class="main-text">
+        Мы являемся авторизованным сервисным центром по ремонту техники Dell.
+        Только у нас вы можете отремонтировать свой ноутбук Dell с официальной
+        гарантией производителя.
+      </p>
+
+      <span
+        ><span class="third-section__text__work-till">
+          Мы успешно работаем с 1992 года и заслужили репутацию надежного
+          партнера</span
+        ><span id="more"
+          >, что подтверждает большое количество постоянных клиентов. Мы
+          гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь,
+          советуют нас родным и близким.
+        </span>
+      </span>
+
+      <span class="third-section__extended-text" onclick="readMore()">
+        <div class="third-section__extended-text__checkmark">
+          <svg
+            class="icon"
+            width="8"
+            height="11"
+            viewBox="0 0 8 11"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M6.50008 0.500076L4.00008 3.00008L1.50008 0.500076C1.22393 0.223933 0.776218 0.223933 0.500076 0.500076C0.223933 0.776218 0.223933 1.22393 0.500075 1.50008L3.29297 4.29297C3.68349 4.68349 4.31666 4.68349 4.70718 4.29297L7.50008 1.50008C7.77622 1.22393 7.77622 0.776218 7.50008 0.500076C7.22393 0.223933 6.77622 0.223933 6.50008 0.500076ZM6.50008 6.50008L4.00008 9.00008L1.50008 6.50008C1.22393 6.22393 0.776218 6.22393 0.500076 6.50008C0.223933 6.77622 0.223933 7.22393 0.500075 7.50008L3.29297 10.293C3.68349 10.6835 4.31666 10.6835 4.70718 10.293L7.50008 7.50008C7.77622 7.22393 7.77622 6.77622 7.50008 6.50008C7.22393 6.22393 6.77622 6.22393 6.50008 6.50008Z"
+              fill="#41F6D7"
+            />
+          </svg>
+        </div>
+
+        <span class="read-more-less" id="read-more-text">Читать далее</span>
+      </span>
+    </article>
+
+    <div class="third-section__image">
+      <div class="entering-image">
+        <img class="mobile-img" src="images/mobile_img.png" />
+        <img class="tab-img" src="images/tab_img.png" />
+        <img class="pc-img" src="images/pc_img.png" />
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
