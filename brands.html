@@ -11,28 +11,28 @@
 
     <script>
       const showMore = () => {
-        const container = document.querySelector('.second-section__brandpage');
+        const container = document.querySelector('.sixth-section__brandpage');
         const text = document.getElementById('show-more-brands');
 
 
-        if (container.classList.contains('second-section__brandpage--shrink')) {
+        if (container.classList.contains('sixth-section__brandpage--shrink')) {
           text.innerHTML = 'Скрыть';
-          container.classList.remove('second-section__brandpage--shrink')
+          container.classList.remove('sixth-section__brandpage--shrink')
         } else {
           text.innerHTML = 'Показать все';
-          container.classList.add('second-section__brandpage--shrink')
+          container.classList.add('sixth-section__brandpage--shrink')
         }
 
       };
     </script>
   </head>
   <body>
-    <header>
-      <div class="highlight"></div>
-      <div class="first-section">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</div>
-    </header>
-    <nav class="second-section">
-      <div class="second-section__brandpage second-section__brandpage--shrink">
+    <div class="brandpage__header">
+      <div class="brandpage__highlight"></div>
+      <div class="fifth-section">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</div>
+    </div>
+    <nav class="sixth-section">
+      <div class="sixth-section__brandpage sixth-section__brandpage--shrink">
         <div class="swiper-slide-container">
           <img class="logo" src="images/img-lenovo.png" />
           <svg
@@ -197,7 +197,7 @@
         </div>
 
         <div
-          class="swiper-slide-container second-section__high-defination__brandpage"
+          class="swiper-slide-container sixth-section__high-defination__brandpage"
         >
           <img class="logo" src="images/img-samsung.png" />
           <svg
@@ -226,7 +226,7 @@
           </svg>
         </div>
         <div
-          class="swiper-slide-container second-section__high-defination__brandpage"
+          class="swiper-slide-container sixth-section__high-defination__brandpage"
         >
           <img class="logo" src="images/img-sony.png" />
           <svg
@@ -339,8 +339,8 @@
     
       </div>
 
-      <div class="second-section__show-more" onclick="showMore()">
-        <div class="second-section__show-more__checkmark">
+      <div class="sixth-section__show-more" onclick="showMore()">
+        <div class="sixth-section__show-more__checkmark">
           <svg
             class="icon"
             width="8"

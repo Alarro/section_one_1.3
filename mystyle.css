@@ -140,7 +140,7 @@ header {
   margin-right: 18.73px;
 }
 
-.back-1 {
+.icon-burger {
   width: 40px;
   height: 40px;
   background: #ff3e79;
@@ -150,7 +150,7 @@ header {
   margin-right: 0px;
 }
 
-.back-2 {
+.icon-call {
   display: none;
   width: 40px;
   height: 40px;
@@ -163,7 +163,7 @@ header {
   -o-border-radius: 20px;
 }
 
-.back-3 {
+.icon-chat {
   display: none;
   width: 40px;
   height: 40px;
@@ -172,7 +172,7 @@ header {
   margin-right: 16px;
 }
 
-.back-4 {
+.icon-profile {
   display: none;
   width: 40px;
   height: 40px;
@@ -181,7 +181,7 @@ header {
   margin-right: 16px;
 }
 
-.back-5 {
+.icon-repair {
   width: 40px;
   height: 40px;
   background: #ff3e79;
@@ -190,7 +190,7 @@ header {
   
 }
 
-.back-6 {
+.icon-checkstatus {
   width: 40px;
   height: 40px;
   background: #ff3e79;
@@ -199,7 +199,7 @@ header {
   
 }
 
-.back-7 {
+.icon-repair-high-defination {
   width: 40px;
   height: 40px;
   background: #ff3e79;
@@ -209,7 +209,7 @@ header {
 }
 
 
-.back-8 {
+.icon-checkstatus-high-defination {
   width: 40px;
   height: 40px;
   background: #ff3e79;
@@ -430,7 +430,8 @@ button {
   display: none;
 }
 
-@media (min-width: 765px) {
+
+@media (min-width: 768px) {
   .logo {
     margin-left: 0px;
     margin-right: 0px;
@@ -442,7 +443,7 @@ button {
     margin-right: 20.73px;
   }
 
-  .back-2 {
+  .icon-call {
     display: flex;
     margin-left: 250.73px;
   }
@@ -451,7 +452,7 @@ button {
     margin: 11px;
   }
 
-  .back-3 {
+  .icon-chat {
     display: flex;
   }
 
@@ -459,7 +460,7 @@ button {
     margin: 11px 10px 9px 10px;
   }
 
-  .back-4 {
+  .icon-profile {
     display: flex;
   }
 
@@ -536,12 +537,12 @@ button {
     align-items: center;
   }
 
-  .back-7 {
+  .icon-repair-high-defination {
     display: block;
     margin-right: 0;
   }
 
-  .back-8 {
+  .icon-checkstatus-high-defination {
     display: block;
     margin-right: 32px;
   }
