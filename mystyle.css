@@ -120,9 +120,7 @@ header {
 
 }
 
-.header__burger {
-  margin-left: 16px;
-  margin-right: 16px;
+.icon-button {
   width: 40px;
   height: 40px;
   border: 0px;
@@ -132,6 +130,11 @@ header {
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
   background-color: #FF3E79;
+}
+
+.header__button-burger {
+  margin-left: 16px;
+  margin-right: 16px;
   background-image: url("images/iconburger.svg");
 }
 
@@ -149,72 +152,27 @@ header {
 .header__button-call {
   display: none;
   margin-right: 16px;
-  width: 40px;
-  height: 40px;
-  border: 0px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  background-color: #FF3E79;
   background-image: url("images/iconcall.svg");
 }
 
 .header__button-chat {
   display: none;
   margin-right: 16px;
-  width: 40px;
-  height: 40px;
-  border: 0px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  background-color: #FF3E79;
   background-image: url("images/iconchat.svg");
 }
 
 .header__button-profile {
   display: none;
   margin-right: 16px;
-  width: 40px;
-  height: 40px;
-  border: 0px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  background-color: #FF3E79;
   background-image: url("images/iconprofile.svg");
 }
 
 .header__button-repair {
   margin-right: 16px;
-  width: 40px;
-  height: 40px;
-  border: 0px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  background-color: #FF3E79;
   background-image: url("images/paths.svg");
 }
 
 .header__button-checkstatus {
-  width: 40px;
-  height: 40px;
-  border: 0px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  background-color: #FF3E79;
   background-image: url("images/checkstatus.svg");
 }
 
@@ -236,15 +194,6 @@ header {
 
 .header__pc-button-check-status {
   display: none;
-  width: 40px;
-  height: 40px;
-  border: 0px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  background-color: #FF3E79;
   background-image: url("images/checkstatus.svg");
 }
 
