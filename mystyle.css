@@ -507,16 +507,7 @@ button {
     flex-basis: 373px;
   }
 
-  .icon-button-1 {
-    padding: 0;
-    margin-right: 32px;
-    margin-top: 42px;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .icon-button_pc-make-request-label {
+  .button_pc-make-request-label {
     display: flex;
     white-space: nowrap;
     margin-top: 42px;
@@ -534,7 +525,7 @@ button {
 }
 
 
-.icon-button_pc-check-status {
+.button_pc-check-status-label {
   display: flex;
   align-items: center;
   margin-top: 42px;
@@ -548,19 +539,6 @@ button {
     margin-left: 8px;
     margin-right: 32px;
     background-image: url("images/paths.svg");
-  }
-
-  .header_high_defination-make_request {
-    display: inline-flex;
-    font-family: 'TTLakes-Medium';
-    margin-right: 8px;
-  }
-
-  .header__pc-extra-status {
-    display: inline-flex;
-    font-family: 'TTLakes-Medium';
-    margin-left:32px;
-    margin-right: 9px;
   }
 
 
