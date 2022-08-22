@@ -132,13 +132,13 @@ header {
   background-color: #FF3E79;
 }
 
-.button_burger {
+.icon-button_burger {
   margin-left: 16px;
   margin-right: 16px;
   background-image: url("images/iconburger.svg");
 }
 
-.button_burger::after {
+.icon-button_burger::after {
   content: '';
   position: absolute;
   left: 0px;
@@ -149,34 +149,34 @@ header {
   display: none;
 }
 
-.button_call {
+.icon-button_call {
   display: none;
   margin-right: 16px;
   background-image: url("images/iconcall.svg");
 }
 
-.button_chat {
+.icon-button_chat {
   display: none;
   margin-right: 16px;
   background-image: url("images/iconchat.svg");
 }
 
-.button_profile {
+.icon-button_profile {
   display: none;
   margin-right: 16px;
   background-image: url("images/iconprofile.svg");
 }
 
-.button_repair {
+.icon-button_repair {
   margin-right: 16px;
   background-image: url("images/paths.svg");
 }
 
-.button_checkstatus {
+.icon-button_checkstatus {
   background-image: url("images/checkstatus.svg");
 }
 
-.button_repair::before {
+.icon-button_repair::before {
   content: '';
   position: absolute;
   right: 132px;
@@ -186,13 +186,13 @@ header {
   background-color: #eaeaea;
 }
 
-.button_pc-make-request {
+.icon-button_pc-make-request {
   margin-right: 16px;
   display: none;
 }
 
 
-.button_pc-checkstatus {
+.icon-button_pc-checkstatus {
   display: none;
   background-image: url("images/repair.svg");
 }
@@ -386,17 +386,17 @@ button {
   }
 
 
-  .button_call {
+  .icon-button_call {
     display: block;
     margin-right: 16px;
   }
 
-  .button_chat {
+  .icon-button_chat {
     display: block;
     margin-right: 16px;
   }
 
-  .button_profile {
+  .icon-button_profile {
     display: block;
     margin-right: 42px;
   }
@@ -405,13 +405,13 @@ button {
     margin-left: 24px;
   }
 
-  .button_burger::after {
+  .icon-button_burger::after {
     display: block !important;
     left: 86px;
     top: 28px;
   }
 
-  .button_checkstatus {
+  .icon-button_checkstatus {
     width: 40px;
     height: 40px;
     border: 0px;
@@ -507,7 +507,7 @@ button {
     flex-basis: 373px;
   }
 
-  .button-1 {
+  .icon-button-1 {
     padding: 0;
     margin-right: 32px;
     margin-top: 42px;
@@ -516,7 +516,7 @@ button {
     justify-content: space-between;
   }
 
-  .button_pc-make-request-label {
+  .icon-button_pc-make-request-label {
     display: flex;
     white-space: nowrap;
     margin-top: 42px;
@@ -525,7 +525,7 @@ button {
     align-items: center;
   }
 
-  .button_pc-make-request {
+  .icon-button_pc-make-request {
     display: inline;
     margin-left: 8px;
     background-image: url("images/checkstatus.svg");
@@ -534,7 +534,7 @@ button {
 }
 
 
-.button_pc-check-status {
+.icon-button_pc-check-status {
   display: flex;
   align-items: center;
   margin-top: 42px;
@@ -543,7 +543,7 @@ button {
   right: 56%
 }
 
-  .button_pc-checkstatus {
+  .icon-button_pc-checkstatus {
     display: inline;
     margin-left: 8px;
     margin-right: 32px;
