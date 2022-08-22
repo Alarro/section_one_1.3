@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="mystyle.css" />
     <script>
       const readMore = () => {
-        const more = document.getElementById('more');
+        const more = document.getElementById('article__first-fragment');
         const text = document.getElementById('article__read-more-text');
         const thirdSection = document.querySelector('.article__text-container');
 
@@ -120,7 +120,7 @@
           Только у нас вы можете отремонтировать свой ноутбук Dell с официальной
           гарантией производителя.
         </p>
-        <span class="article__visible-text__extended"
+        <div class="article__visible-text__extended"
           ><p class="article__first-fragment">
             Мы успешно работаем с 1992 года и заслужили репутацию надежного
             партнера</p
@@ -129,16 +129,16 @@
             гордимся тем, что к нам обращаются по рекомендациям и, в свою
             очередь, советуют нас родным и близким.
           </p>
-        </span>
+        </div>
         <button class="article__show-more-button" onclick="readMore()">
           <span class="article__read-more-less" id="article__read-more-text">Читать далее</span>
         </button>
       </div>
-    <div class="article__image-container">
+    <div class="main__image-container">
       <picture> 
         <source srcset="images/mobile-jpeg.jpg" media="(max-width: 766px)">
         <source srcset="images/tablet-jpeg.jpg" media="(max-width: 1119px)">
-        <img class="article__image" src="images/pc-jpeg.jpg">
+        <img class="main__image" src="images/pc-jpeg.jpg">
       </picture>
     </div>
       </article>

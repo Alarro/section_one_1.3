@@ -412,7 +412,7 @@ button {
   -o-transform: rotate(180deg);
 }
 
-.article__image-container {
+.main__image-container {
   margin-top: 16px;
   text-align: center;
 }
@@ -503,7 +503,7 @@ button {
   }
 
 
-  .article__image-container {
+  .main__image-container {
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
@@ -523,7 +523,7 @@ button {
   }
 
 
-  .article__image {
+  .main__image {
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
@@ -664,11 +664,11 @@ button {
     
   }
 
-  .article__image-container {
+  .main__image-container {
     flex-basis: 531px;
 }
 
-  .article__image {
+  .main__image {
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
