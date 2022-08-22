@@ -132,16 +132,16 @@ header {
   background-color: #FF3E79;
 }
 
-.header__button-burger {
+.button_burger {
   margin-left: 16px;
   margin-right: 16px;
   background-image: url("images/iconburger.svg");
 }
 
-.header__burger::after {
+.button_burger::after {
   content: '';
   position: absolute;
-  left: 64px;
+  left: 0px;
   top: 10px;
   width: 2px;
   height: 32px;
@@ -149,34 +149,34 @@ header {
   display: none;
 }
 
-.header__button-call {
+.button_call {
   display: none;
   margin-right: 16px;
   background-image: url("images/iconcall.svg");
 }
 
-.header__button-chat {
+.button_chat {
   display: none;
   margin-right: 16px;
   background-image: url("images/iconchat.svg");
 }
 
-.header__button-profile {
+.button_profile {
   display: none;
   margin-right: 16px;
   background-image: url("images/iconprofile.svg");
 }
 
-.header__button-repair {
+.button_repair {
   margin-right: 16px;
   background-image: url("images/paths.svg");
 }
 
-.header__button-checkstatus {
+.button_checkstatus {
   background-image: url("images/checkstatus.svg");
 }
 
-.header__button-repair::before {
+.button_repair::before {
   content: '';
   position: absolute;
   right: 132px;
@@ -186,15 +186,15 @@ header {
   background-color: #eaeaea;
 }
 
-.header__pc-button-make-request {
+.button_pc-make-request {
   margin-right: 16px;
   display: none;
 }
 
 
-.header__pc-button-check-status {
+.button_pc-checkstatus {
   display: none;
-  background-image: url("images/checkstatus.svg");
+  background-image: url("images/repair.svg");
 }
 
 .header__left-icons—mobile {
@@ -386,17 +386,17 @@ button {
   }
 
 
-  .header__button-call {
+  .button_call {
     display: block;
     margin-right: 16px;
   }
 
-  .header__button-chat {
+  .button_chat {
     display: block;
     margin-right: 16px;
   }
 
-  .header__button-profile {
+  .button_profile {
     display: block;
     margin-right: 42px;
   }
@@ -405,13 +405,13 @@ button {
     margin-left: 24px;
   }
 
-  .header__burger::after {
-    display: block;
-    left: 92px;
+  .button_burger::after {
+    display: block !important;
+    left: 86px;
     top: 28px;
   }
 
-  .header__button-checkstatus {
+  .button_checkstatus {
     width: 40px;
     height: 40px;
     border: 0px;
@@ -516,7 +516,7 @@ button {
     justify-content: space-between;
   }
 
-  .header__pc-button-make-request-label {
+  .button_pc-make-request-label {
     display: flex;
     white-space: nowrap;
     margin-top: 42px;
@@ -525,25 +525,16 @@ button {
     align-items: center;
   }
 
-  .header__pc-button-make-request {
+  .button_pc-make-request {
     display: inline;
-    border: 0px;
-    width: 40px;
-    height: 40px;
-    background-color: #FF3E79;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
     margin-left: 8px;
-    background-image: url("images/paths.svg");
+    background-image: url("images/checkstatus.svg");
     margin-right: 32px;
 
 }
 
 
-.header__pc-button-check-status-label {
+.button_pc-check-status {
   display: flex;
   align-items: center;
   margin-top: 42px;
@@ -552,20 +543,11 @@ button {
   right: 56%
 }
 
-  .header__pc-button-check-status {
+  .button_pc-checkstatus {
     display: inline;
-    border: 0px;
-    width: 40px;
-    height: 40px;
-    background-color: #FF3E79;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
     margin-left: 8px;
     margin-right: 32px;
-    background-image: url("images/checkstatus.svg");
+    background-image: url("images/paths.svg");
   }
 
   .header_high_defination-make_request {
